@@ -1,14 +1,12 @@
-package tk.sbarjola.pa.bicingbcn_client.POJOBicing;
 
-/**
- * Created by 46465442z on 18/01/16.
- */
+package practica1.com.androidbicing.ObjectsStations;
+
 import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Bicing {
+public class StationsList {
 
     @SerializedName("stations")
     @Expose
@@ -18,36 +16,36 @@ public class Bicing {
     private Integer updateTime;
 
     /**
-     *
+     * 
      * @return
-     * The stations
+     *     The stations
      */
     public List<Station> getStations() {
         return stations;
     }
 
     /**
-     *
+     * 
      * @param stations
-     * The stations
+     *     The stations
      */
     public void setStations(List<Station> stations) {
         this.stations = stations;
     }
 
     /**
-     *
+     * 
      * @return
-     * The updateTime
+     *     The updateTime
      */
     public Integer getUpdateTime() {
         return updateTime;
     }
 
     /**
-     *
+     * 
      * @param updateTime
-     * The updateTime
+     *     The updateTime
      */
     public void setUpdateTime(Integer updateTime) {
         this.updateTime = updateTime;

@@ -1,4 +1,4 @@
-package tk.sbarjola.pa.bicingbcn_client;
+package practica1.com.androidbicing;
 
 import org.junit.Test;
 
